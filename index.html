@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PORTFOLIO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex John | Software Architect & Engineer</title>
 </head>
-<body>
-    <p> hello how are you</p>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; line-height: 1.6;">
+
+  <!-- Navigation Bar -->
+  <nav style="background-color: #1e293b; padding: 1.25rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; position: sticky; top: 0; z-index: 100;">
+    <div style="font-size: 1.5rem; font-weight: 700; color: #38bdf8; letter-spacing: 1px;">ALEX JOHN</div>
+    <div style="display: flex; gap: 1.5rem;">
+      <a href="#about" style="color: #94a3b8; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='#38bdf8'" onmouseout="this.style.color='#94a3b8'">About</a>
+      <a href="#skills" style="color: #94a3b8; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='#38bdf8'" onmouseout="this.style.color='#94a3b8'">Skills</a>
+      <a href="#hobbies" style="color: #94a3b8; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='#38bdf8'" onmouseout="this.style.color='#94a3b8'">Interests</a>
+      <a href="#contact" style="color: #94a3b8; text-decoration: none; font-weight: 500; transition: color 0.3s;" onmouseover="this.style.color='#38bdf8'" onmouseout="this.style.color='#94a3b8'">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero / Header Section -->
+  <header style="padding: 5rem 2rem; text-align: center; background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%); border-bottom: 1px solid #334155;">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <span style="background-color: #0369a1; color: #bae6fd; padding: 0.4rem 1rem; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">M.Sc. Computer Science</span>
+      <h1 style="font-size: 3rem; margin: 1.5rem 0 1rem 0; color: #ffffff; font-weight: 800;">ALEX JOHN</h1>
+      <p style="font-size: 1.25rem; color: #94a3b8; margin-bottom: 2rem;">Software Engineer & System Architect based in <span style="color: #38bdf8;">Wayanad</span></p>
+      <div style="display: flex; justify-content: center; gap: 1rem;">
+        <a href="#contact" style="background-color: #0284c7; color: #ffffff; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">Get in Touch</a>
+        <a href="#skills" style="border: 1px solid #475569; color: #e2e8f0; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">Explore Skills</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main style="max-width: 1000px; margin: 0 auto; padding: 3rem 1.5rem;">
+
+    <!-- About Section -->
+    <section id="about" style="margin-bottom: 4rem;">
+      <h2 style="font-size: 1.75rem; color: #f1f5f9; border-left: 4px solid #0284c7; padding-left: 1rem; margin-bottom: 1.5rem;">About Me</h2>
+      <div style="background-color: #1e293b; padding: 2rem; border-radius: 0.75rem; border: 1px solid #334155;">
+        <p style="color: #cbd5e1; margin-top: 0; font-size: 1.1rem; line-height: 1.8;">
+          Hello! I'm Alex John, a passionate Software Engineer holding a <strong>Master of Science in Computer Science</strong>. Based out of the scenic district of <strong>Wayanad</strong>, I specialize in designing scalable software architectures, building full-stack web applications, and writing performant system code.
+        </p>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" style="margin-bottom: 4rem;">
+      <h2 style="font-size: 1.75rem; color: #f1f5f9; border-left: 4px solid #0284c7; padding-left: 1rem; margin-bottom: 1.5rem;">Technical Expertise</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;">
+        
+        <!-- MERN -->
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;">
+          <h3 style="color: #38bdf8; margin-top: 0; font-size: 1.25rem;">MERN Stack</h3>
+          <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 0;">MongoDB, Express.js, React, Node.js for modern full-stack web development.</p>
+        </div>
+
+        <!-- Python -->
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;">
+          <h3 style="color: #38bdf8; margin-top: 0; font-size: 1.25rem;">Python</h3>
+          <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 0;">Scripting, data structures, automation, backend development, and AI logic integration.</p>
+        </div>
+
+        <!-- PHP -->
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;">
+          <h3 style="color: #38bdf8; margin-top: 0; font-size: 1.25rem;">PHP</h3>
+          <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 0;">Server-side web applications, RESTful APIs, and database management.</p>
+        </div>
+
+        <!-- C -->
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;">
+          <h3 style="color: #38bdf8; margin-top: 0; font-size: 1.25rem;">C Language</h3>
+          <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 0;">Low-level system programming, algorithm optimization, and memory management.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education & Hobbies Grid -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+      
+      <!-- Education Section -->
+      <section>
+        <h2 style="font-size: 1.75rem; color: #f1f5f9; border-left: 4px solid #0284c7; padding-left: 1rem; margin-bottom: 1.5rem;">Education</h2>
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;">
+          <h3 style="color: #ffffff; margin: 0 0 0.5rem 0; font-size: 1.2rem;">M.Sc. Computer Science</h3>
+          <p style="color: #38bdf8; margin: 0 0 0.5rem 0; font-size: 0.95rem; font-weight: 600;">Master's Degree</p>
+          <p style="color: #94a3b8; margin: 0; font-size: 0.9rem;">Specialized in advanced computer algorithms, software architecture design, and database systems.</p>
+        </div>
+      </section>
+
+      <!-- Hobbies & Interests Section -->
+      <section id="hobbies">
+        <h2 style="font-size: 1.75rem; color: #f1f5f9; border-left: 4px solid #0284c7; padding-left: 1rem; margin-bottom: 1.5rem;">Hobbies & Interests</h2>
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155; display: flex; flex-direction: column; gap: 1rem;">
+          <div>
+            <h4 style="color: #38bdf8; margin: 0 0 0.25rem 0; font-size: 1.1rem;">💻 Coding</h4>
+            <p style="color: #94a3b8; margin: 0; font-size: 0.9rem;">Building side projects, exploring new frameworks, and tackling algorithmic puzzles.</p>
+          </div>
+          <hr style="border: 0; border-top: 1px solid #334155; width: 100%;">
+          <div>
+            <h4 style="color: #38bdf8; margin: 0 0 0.25rem 0; font-size: 1.1rem;">✈️ Travel</h4>
+            <p style="color: #94a3b8; margin: 0; font-size: 0.9rem;">Exploring nature, discovering new cultures, and taking inspiration from the world around Wayanad.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" style="margin-bottom: 2rem;">
+      <h2 style="font-size: 1.75rem; color: #f1f5f9; border-left: 4px solid #0284c7; padding-left: 1rem; margin-bottom: 1.5rem;">Contact & Location</h2>
+      <div style="background-color: #1e293b; padding: 2rem; border-radius: 0.75rem; border: 1px solid #334155; text-align: center;">
+        <h3 style="color: #ffffff; margin-top: 0;">Let's Connect</h3>
+        <p style="color: #94a3b8; max-width: 500px; margin: 0 auto 1.5rem auto;">I am open to software architecture roles, full-stack developer opportunities, and technical collaborations.</p>
+        <p style="color: #cbd5e1; font-size: 1.05rem;">📍 <strong>Location:</strong> Wayanad, Kerala, India</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer style="background-color: #090d16; text-align: center; padding: 2rem; border-top: 1px solid #1e293b; color: #64748b; font-size: 0.9rem;">
+    <p style="margin: 0;">&copy; Alex John. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
